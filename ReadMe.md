@@ -1,14 +1,11 @@
-# Flask-library-API
-An API designed in flask. Uses CircleCI as the CI/CD tool and pyjwt handles the authentication
-
-## About
-A library management API, allows users to add and manage books in a library.
-- Users get auth token after login
+# Authentication Decorators in Flask
+An API designed in flask. Uses CircleCI as the CI/CD tool and pyjwt handles the authentication. The API allows users to add and manage books in a library. Users get auth token after login which can then be used to access othr routes and perform other actions.
 ## Setup
 1. Create directory and `cd` into the directory
 2. clone the repo `https://github.com/mwaz/authentication-decorators-flask.git`
 3. setup a virtualenv `pipenv shell`
 4. install dependencies `pipenv install`
+5. Run tests `pipenv run pytest`
 
 ### Running
 > type: `python run.py`

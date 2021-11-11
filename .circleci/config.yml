@@ -16,4 +16,4 @@ jobs:
           pkg-manager: pipenv
       - run:
           name: Run tests
-          command: pipenv run pytest test_auth.py
+          command: pipenv run pytest

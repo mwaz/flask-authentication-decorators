@@ -86,19 +86,3 @@ def delete_book(book_id):
    db.session.delete(book) 
    db.session.commit()  
    return jsonify({'message': 'Book deleted'})
-
-
-# # update a book
-# @app.route("/bookapi/book/<book_id>", methods=['PUT'])
-# def update_book(book_id):
-#     data = request.get_json()
-
-#     book = BookModel.query.filter_by(id=book_id).first()
-#     if not book:
-#         return make_response(jsonify({"message": "No book found with that id!"}), 404)
-#     if book.title:
-#         data['title'] = book.title
-#     # if data['author']:
-#     #     book.author = data['author']
-#     db.session.commit()
-#     return jsonify({"Book": book})

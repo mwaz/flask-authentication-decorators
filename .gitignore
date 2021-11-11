@@ -1,0 +1,9 @@
+.env
+__pycache__
+library/__pycache__/__init__.cpython-38.pyc
+library/__pycache__/api.cpython-38.pyc
+library/__pycache__/models.cpython-38.pyc
+library/__pycache__/resources.cpython-38.pyc
+library/__pycache__/test_api.cpython-38-pytest-6.1.1.pyc
+__pycache__/
+__pycache__/config.cpython-38.pyc
